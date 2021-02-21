@@ -31,7 +31,7 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - label: "Enabled?"
         name: "active"
-        required: false
+        required: true
         widget: "boolean"
         default: true
       - label: "Widget Style"
@@ -91,9 +91,9 @@ collections:
         media_library:
           config:
             multiple: false
-      - {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false}
-      - {label: "Full biography (shown in About widget)", name: "body", widget: "markdown", required: false}
-      - label: "Interests (shown in About widget)"
+      -# {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false}
+      -# {label: "Full biography (shown in About widget)", name: "body", widget: "markdown", required: false}
+      - #label: "Interests (shown in About widget)"
         name: "interests"
         required: false
         widget: "list"
@@ -133,7 +133,7 @@ collections:
           - {label: Link, name: url, widget: string, required: false}
       - label: "Education"
         name: "education"
-        required: false
+        required: true
         widget: object
         fields:
           - label: "Courses"
