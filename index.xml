@@ -136,18 +136,18 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
-      <title>Air Quality Visualization</title>
-      <link>https://niloulsarvian.github.io/project/internal-project/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://niloulsarvian.github.io/project/internal-project/</guid>
+      <title>Pollution during the Pandemic</title>
+      <link>https://niloulsarvian.github.io/project/external-project/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://niloulsarvian.github.io/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Strontium Box Model</title>
-      <link>https://niloulsarvian.github.io/project/external-project/</link>
+      <title>Air Quality Visualization</title>
+      <link>https://niloulsarvian.github.io/project/internal-project/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://niloulsarvian.github.io/project/external-project/</guid>
+      <guid>https://niloulsarvian.github.io/project/internal-project/</guid>
       <description></description>
     </item>
     
@@ -323,7 +323,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-459137286&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-647981325&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -333,7 +333,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-459137286&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-647981325&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
